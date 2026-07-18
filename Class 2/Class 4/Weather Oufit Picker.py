@@ -5,12 +5,12 @@ temperature=int(input("Please write the temperature in Celcius:"))
 if temperature < 20 :
     print("It is cold today")
     outfit="coat"
-    print("Wear a",outfit)
 
 else:
     print("It is hot today")
     outfit="t-shirt"
-    print("Wear a",outfit)
+
+print("Wear a",outfit)
 
 #Checking the rain
 
