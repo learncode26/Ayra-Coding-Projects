@@ -33,7 +33,7 @@ if has_free_time == "yes":
     print("Enjoy your", final_task)
 else:
     final_task = "planning time"
-    print("You do not have much free time today.")
+    print("You do not have free time today.")
     print("Use some time for", final_task)
  
 print("")
