@@ -3,7 +3,7 @@ print("Smart School Day Planner!")
 day=input("Please enter the day of the week:").strip().capitalize()
 homework=input("Have you finished your homework?(yes/no)").lower().strip()
 weather=input("What is the weather like today?(cloudy/sunny/rainy)").lower().strip()
-
+print()
 print(f"Your plan for {day}")
 
 if day=="Monday":
@@ -41,5 +41,5 @@ elif (day=="Saturday"or day=="Sunday") and weather=="sunny":
 
 else:
     print("Do your homework one step at a time. You can do it!")
-
+print()
 print("Your plan is complete! Have a great day!!!")
