@@ -2,7 +2,7 @@ f1=80
 f2=90
 f3=100
 f4=100
-f5=110
+f5=100
 total=f1+f2+f3+f4+f5
 average=total/5
 print("Total is:",total,"kg.")
