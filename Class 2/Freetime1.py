@@ -120,3 +120,7 @@ if "unicorn" in line:
 
 if found == False:
     print("I don't really know an emoji for that sentence. 🤔 Try another sentence!")
+
+
+
+    
