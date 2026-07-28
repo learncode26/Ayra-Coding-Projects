@@ -1,2 +1,2 @@
-#prime numberchecker,bus fare calculator,text adventure game,number calculator-large small sum average,password strength tracker,bill calculatoe
+#bus fare calculator,text adventure game,password strength tracker,bill calculator
 print("")
