@@ -1,2 +1,10 @@
-#bus fare calculator,text adventure game,password strength tracker,bill calculator
-print("")
+print()
+print("🚌 -Bus Fare Calculator!- 💷")
+print()
+distance=int(input("Please input how far you are travelling in km:"))
+cost_per_km=int(input("Please input how many pounds per km:"))
+total_cost=round(distance*cost_per_km,2)
+print(f"The cost of your bus ride is £{total_cost}!")
+print("Thank you for using the bus fare calculator!")
+print()
+ 
