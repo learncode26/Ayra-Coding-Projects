@@ -33,11 +33,14 @@ if num3<smallest:
 if num4<smallest:
     num4=smallest
 
+num_range=largest-smallest
 print("The smallest number is",smallest)
 
 print("The sum of all the numbers are",total)
 
 print("The average of all the numbers is",average)
+
+print("The range of all the numbers is",num_range)
 
 print()
 print("Thank you for using the number calculator! Bye!!!")
