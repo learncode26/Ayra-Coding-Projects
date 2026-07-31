@@ -1,2 +1,2 @@
-#bus fare calculator,text adventure game,password strength tracker,bill calculator
+#password strength tracker
 print("")
