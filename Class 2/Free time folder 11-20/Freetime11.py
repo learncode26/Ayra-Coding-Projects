@@ -1,0 +1,5 @@
+print()
+print("NHS Blue Light Discount Calculator!")
+print("")
+cost=float(input("Please enter the price of your meal:"))
+percentage=int(input("Please enter the percentage of the discount:"))
