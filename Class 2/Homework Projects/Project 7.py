@@ -27,3 +27,49 @@ if app in approved_apps:
 
 else:
     print(app,"is not an approved school app.")
+
+
+
+if app in restricted_apps:
+    print("Access Denied! App is restricted")
+
+student_permissions=CAMERA|MICROPHONE|STORAGE
+
+print("Permission value:",student_permissions)
+print("Permission bits:",bin(student_permissions))
+
+if student_permissions & CAMERA:
+    print("Camera permission: Enabled")
+
+if student_permissions & MICROPHONE:
+    print("Microphone permission: Enabled")
+
+if student_permissions & STORAGE:
+    print("Storage permission: Enabled")
+
+if student_permissions & LOCATION:
+    print("Location permission: Enabled")
+
+else:
+    print("Location permission: Disabled")
+
+
+print("\n--- Bit Shift Demonstration ---")
+ 
+next_permission = CAMERA << 1
+ 
+print("Camera bit:", bin(CAMERA))
+print("After left shift:", bin(next_permission))
+ 
+previous_permission = STORAGE >> 1
+ 
+print("Storage bit:", bin(STORAGE))
+print("After right shift:", bin(previous_permission))
+ 
+ 
+print("\n--- Final Access Result ---")
+ 
+if app in approved_apps and app not in restricted_apps:
+    print("Access granted to", app)
+else:
+    print("Access denied to", app)
