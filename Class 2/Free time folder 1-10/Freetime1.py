@@ -114,9 +114,15 @@ if "pizza" in line or "food" in line:
 
 if "kpop" in line:
     print("🧚‍♀️")
+    found = True
 
 if "unicorn" in line:
     print("🦄")
+    found = True
+
+if "minecraft" in line or "game" in line:
+    print("🎮")
+    found = True
 
 if found == False:
     print("I don't really know an emoji for that sentence. 🤔 Try another sentence!")
