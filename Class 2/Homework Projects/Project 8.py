@@ -7,3 +7,5 @@ meeting_hours=1.5
 is_active=True
 
 print("Name:",name,"-> type:",type(name))
+print("Club:",name,"-> type:",type(club))
+print("")
