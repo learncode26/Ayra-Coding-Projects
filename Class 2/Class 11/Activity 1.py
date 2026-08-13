@@ -7,7 +7,7 @@ serving=True
 while serving:
     print()
     name=input("Hello, please enter your name:").capitalize().strip()
-    amount=int(input(f"Hello {name} how much do you want to withdraw: ").strip())
+    amount=int(input(f"Hello {name} how much do you want to withdraw: £").strip())
     remaining=amount
     note_index=1
     while note_index<=7:
