@@ -11,7 +11,7 @@ total_sales = 0
 billing = True
  
 while billing:                         
-    name = input("Enter customer name: ")
+    name = input("Enter customer name: ").capitalize().strip()
     item_count = int(input(f"Hello {name}! How many items are you buying? "))
  
     if item_count <= 0:
@@ -57,7 +57,7 @@ while billing:
         billing = False
  
  
-print("\n=== Grocery Category Report ===")
+print("\n---Grocery Report---")
  
 for slot in range(1, 4):                    
     if slot == 1:
@@ -76,5 +76,5 @@ for slot in range(1, 4):
         print()
  
 print(f"\nCustomers served : {customers_served}")
-print(f"Total sales      : £{total_sales}")
+print(f"Total sales: £{total_sales}")
 print("Grocery billing closed. Goodbye!")
