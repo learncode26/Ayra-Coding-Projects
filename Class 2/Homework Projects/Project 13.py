@@ -32,7 +32,7 @@ while billing:
             continue
  
         item_total = price * quantity
-        print(f"  {item_name}: {quantity} x {price} = {item_total}")
+        print(f"  {item_name}: {quantity} x £{price} = £{item_total}")
  
         customer_total += item_total
  
