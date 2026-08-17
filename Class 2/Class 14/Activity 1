@@ -1,0 +1,21 @@
+computer=1
+count=5
+while count>0:
+    guess=int(input("Enter a number: "))
+    if guess==computer:
+        print("You guessed it!")
+        break
+    elif guess<10:
+        print("Hot!")
+    elif guess<20:
+        print("Warm!")
+    elif guess<30:
+        print("Cold")
+    elif guess<=50:
+        print("Ice cold!!!")
+    count-=1
+    for heart in range(count):
+        print("💗",end="")
+    print()
+print()
+print("The number is 1!")
