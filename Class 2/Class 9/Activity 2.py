@@ -1,8 +1,9 @@
-string=input("Please enter something: ")
+while True:
+    string=input("Please enter something: ")
 
-reversed=""
+    reversed=""
 
-for i in string:
-    reversed=i+reversed
+    for i in string:
+        reversed=i+reversed
 
-print(reversed)
+    print(reversed)
