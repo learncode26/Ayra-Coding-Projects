@@ -16,11 +16,11 @@ rounded_total=round(total,2)
 print("Your total is £",rounded_total)
 payment=float(input("How much have you paid? £"))
 
-def change(paid,totalcost):
+def change_due(paid,totalcost):
     change=paid-totalcost
     return change
 
-change=change(payment,rounded_total)
+change=change_due(payment,rounded_total)
 
 def closing (cups):
     if cups>=5:
