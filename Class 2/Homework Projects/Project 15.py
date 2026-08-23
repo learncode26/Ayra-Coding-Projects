@@ -9,7 +9,7 @@ t = turtle.Turtle()
 t.speed(2)
 
 # Draw the square
-t.fillcolor("aquamarine")
+t.fillcolor("yellow")
 t.begin_fill()
 
 for i in range(4):
