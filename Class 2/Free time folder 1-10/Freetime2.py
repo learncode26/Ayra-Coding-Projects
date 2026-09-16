@@ -17,7 +17,6 @@ while True:
         print("Invalid choice! Please choose rock, paper, or scissors.")
         continue
 
-    # Computer chooses the move that beats the player
     if player == "rock":
         computer = "paper"
     elif player == "paper":
