@@ -10,7 +10,7 @@ print("Average is:",average,"kg.")
 
 leftover=total%25
 bags=total//25
-print("Total number of bags:",bags)
+print("Total number of bags",bags)
 print("Leftover grain is:",leftover,"kg.")
 
 lastyr=480
@@ -22,3 +22,4 @@ total+=30 #Bonus crop
 total-=15 #Seed reserve
 
 
+ 
