@@ -1,0 +1,5 @@
+tuple=(1,2,3,4,3,2,1)
+tuple+=(0,)
+print(tuple)
+print(tuple.count(3))
+print(tuple[1:5])
